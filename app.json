@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "todo_list",
+    "name": "Todo List",
     "slug": "todo_list",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.umaramjad642.todo_list"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "72789262-634f-4449-bcd4-6b01e8741c02"
+      }
     }
   }
 }
